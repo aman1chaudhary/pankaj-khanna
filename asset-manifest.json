@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pankaj-khanna/static/css/main.010b2037.css",
+    "main.js": "/pankaj-khanna/static/js/main.0cf39ff6.js",
+    "static/media/empty.gif": "/pankaj-khanna/static/media/empty.892e3c962daac6591a52.gif",
+    "static/media/Pankaj Khanna.jpg": "/pankaj-khanna/static/media/Pankaj Khanna.8a0879eaa1c9b5603eb4.jpg",
+    "static/media/google-scholar.jpg": "/pankaj-khanna/static/media/google-scholar.3fa44f98c25c8e9200b2.jpg",
+    "static/media/IITGN Logo-Trans.png": "/pankaj-khanna/static/media/IITGN Logo-Trans.fe6f9b091faf101633a9.png",
+    "static/media/email.jpg": "/pankaj-khanna/static/media/email.6907a9a4059b623e3c76.jpg",
+    "static/media/research-gate.jpg": "/pankaj-khanna/static/media/research-gate.927cc42289b8552d811d.jpg",
+    "static/media/twitter.jpg": "/pankaj-khanna/static/media/twitter.fbc11e09345745b94ce7.jpg",
+    "static/media/Shubhangi Kala.jpg": "/pankaj-khanna/static/media/Shubhangi Kala.834402801e19c737c81a.jpg",
+    "static/media/linkedin.jpg": "/pankaj-khanna/static/media/linkedin.844650628b7dca13dcdf.jpg",
+    "static/media/Shradha Menon.jpg": "/pankaj-khanna/static/media/Shradha Menon.305bea5b5bde8e38d329.jpg",
+    "static/media/Horthing V. Zimik.jpg": "/pankaj-khanna/static/media/Horthing V. Zimik.c956cbbf05a5095ee349.jpg",
+    "static/media/Daudayal Sharma.jpg": "/pankaj-khanna/static/media/Daudayal Sharma.731e08f5ee3c870d732e.jpg",
+    "static/media/portfolio-link.jpg": "/pankaj-khanna/static/media/portfolio-link.99b23d92b866ff18ea1a.jpg",
+    "static/media/logo.png": "/pankaj-khanna/static/media/logo.1fcab1a8a19fdf0200a7.png",
+    "index.html": "/pankaj-khanna/index.html",
+    "main.010b2037.css.map": "/pankaj-khanna/static/css/main.010b2037.css.map",
+    "main.0cf39ff6.js.map": "/pankaj-khanna/static/js/main.0cf39ff6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.010b2037.css",
+    "static/js/main.0cf39ff6.js"
+  ]
+}
