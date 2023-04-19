@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pankaj-khanna/static/css/main.9856bd80.css",
-    "main.js": "/pankaj-khanna/static/js/main.4c0a48ad.js",
+    "main.css": "/pankaj-khanna/static/css/main.c694688b.css",
+    "main.js": "/pankaj-khanna/static/js/main.7c1e0cf3.js",
     "static/media/empty.gif": "/pankaj-khanna/static/media/empty.892e3c962daac6591a52.gif",
     "static/media/Pankaj Khanna.jpg": "/pankaj-khanna/static/media/Pankaj Khanna.8a0879eaa1c9b5603eb4.jpg",
     "static/media/google-scholar.jpg": "/pankaj-khanna/static/media/google-scholar.3fa44f98c25c8e9200b2.jpg",
@@ -17,11 +17,11 @@
     "static/media/portfolio-link.jpg": "/pankaj-khanna/static/media/portfolio-link.99b23d92b866ff18ea1a.jpg",
     "static/media/logo.png": "/pankaj-khanna/static/media/logo.1fcab1a8a19fdf0200a7.png",
     "index.html": "/pankaj-khanna/index.html",
-    "main.9856bd80.css.map": "/pankaj-khanna/static/css/main.9856bd80.css.map",
-    "main.4c0a48ad.js.map": "/pankaj-khanna/static/js/main.4c0a48ad.js.map"
+    "main.c694688b.css.map": "/pankaj-khanna/static/css/main.c694688b.css.map",
+    "main.7c1e0cf3.js.map": "/pankaj-khanna/static/js/main.7c1e0cf3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9856bd80.css",
-    "static/js/main.4c0a48ad.js"
+    "static/css/main.c694688b.css",
+    "static/js/main.7c1e0cf3.js"
   ]
 }
