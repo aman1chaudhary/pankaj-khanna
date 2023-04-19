@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pankaj-khanna/static/css/main.1f8928e1.css",
-    "main.js": "/pankaj-khanna/static/js/main.d0adf2c8.js",
+    "main.js": "/pankaj-khanna/static/js/main.b15eee53.js",
     "static/media/empty.gif": "/pankaj-khanna/static/media/empty.892e3c962daac6591a52.gif",
     "static/media/Pankaj Khanna.jpg": "/pankaj-khanna/static/media/Pankaj Khanna.8a0879eaa1c9b5603eb4.jpg",
     "static/media/google-scholar.jpg": "/pankaj-khanna/static/media/google-scholar.3fa44f98c25c8e9200b2.jpg",
@@ -18,10 +18,10 @@
     "static/media/logo.png": "/pankaj-khanna/static/media/logo.1fcab1a8a19fdf0200a7.png",
     "index.html": "/pankaj-khanna/index.html",
     "main.1f8928e1.css.map": "/pankaj-khanna/static/css/main.1f8928e1.css.map",
-    "main.d0adf2c8.js.map": "/pankaj-khanna/static/js/main.d0adf2c8.js.map"
+    "main.b15eee53.js.map": "/pankaj-khanna/static/js/main.b15eee53.js.map"
   },
   "entrypoints": [
     "static/css/main.1f8928e1.css",
-    "static/js/main.d0adf2c8.js"
+    "static/js/main.b15eee53.js"
   ]
 }
