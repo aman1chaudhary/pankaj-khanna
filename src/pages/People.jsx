@@ -32,7 +32,7 @@ const People = () => {
                                     <div className="row">
                                         <div className="col-md-3">
                                             <div className="people-card-img">
-                                                <img src={people.Image} alt='People' />
+                                                <Link to={`/people/${people.Name}`} onClick={() => window.scrollTo(0, 0)}><img src={people.Image} alt='People' /></Link>
 
                                             </div>
 
@@ -76,7 +76,7 @@ const People = () => {
                                             </div>
 
                                             <div className="card-lg-container-btn">
-                                            <Link to={`/people/${people.Name}`} onClick={() => window.scrollTo(0, 0)}><button className="card-lg-btn">Know More </button></Link>
+                                                <Link to={`/people/${people.Name}`} onClick={() => window.scrollTo(0, 0)}><button className="card-lg-btn">Know More </button></Link>
                                             </div>
 
 

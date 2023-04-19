@@ -103,6 +103,9 @@ a {
     font-size: 18px;
 }
 
+.nav__link:hover{
+    color: rgb(9, 0, 80);
+}
 
 .show {
     left: 0;
