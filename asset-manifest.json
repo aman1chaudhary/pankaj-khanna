@@ -1,29 +1,35 @@
 {
   "files": {
-    "main.css": "/pankaj-khanna/static/css/main.0211ec29.css",
-    "main.js": "/pankaj-khanna/static/js/main.e01f492a.js",
+    "main.css": "/pankaj-khanna/static/css/main.991e4fbe.css",
+    "main.js": "/pankaj-khanna/static/js/main.fdbe6f9b.js",
     "static/media/empty.gif": "/pankaj-khanna/static/media/empty.892e3c962daac6591a52.gif",
     "static/media/Pankaj Khanna.jpg": "/pankaj-khanna/static/media/Pankaj Khanna.8a0879eaa1c9b5603eb4.jpg",
+    "static/media/banner.jpg": "/pankaj-khanna/static/media/banner.2e8b50cf3b24572a711a.jpg",
+    "static/media/1.jpg": "/pankaj-khanna/static/media/1.c10384e436f88d7da71e.jpg",
     "static/media/google-scholar.jpg": "/pankaj-khanna/static/media/google-scholar.3fa44f98c25c8e9200b2.jpg",
     "static/media/IITGN Logo-Trans.png": "/pankaj-khanna/static/media/IITGN Logo-Trans.fe6f9b091faf101633a9.png",
     "static/media/Debasmita Datta.jpg": "/pankaj-khanna/static/media/Debasmita Datta.905c3c19d89a534e7230.jpg",
+    "static/media/2.jpg": "/pankaj-khanna/static/media/2.7aa71989659ae04163b4.jpg",
     "static/media/email.jpg": "/pankaj-khanna/static/media/email.6907a9a4059b623e3c76.jpg",
     "static/media/research-gate.jpg": "/pankaj-khanna/static/media/research-gate.927cc42289b8552d811d.jpg",
     "static/media/twitter.jpg": "/pankaj-khanna/static/media/twitter.fbc11e09345745b94ce7.jpg",
     "static/media/Shubhangi Kala.jpg": "/pankaj-khanna/static/media/Shubhangi Kala.834402801e19c737c81a.jpg",
+    "static/media/3.jpg": "/pankaj-khanna/static/media/3.6825dcf27c0a954e6040.jpg",
     "static/media/linkedin.jpg": "/pankaj-khanna/static/media/linkedin.844650628b7dca13dcdf.jpg",
+    "static/media/4.jpg": "/pankaj-khanna/static/media/4.85eba5e7d8f174bea0a8.jpg",
     "static/media/Saikat Kumar Misra.jpg": "/pankaj-khanna/static/media/Saikat Kumar Misra.32f5806d261495ee3cf0.jpg",
     "static/media/Shradha Menon.jpg": "/pankaj-khanna/static/media/Shradha Menon.305bea5b5bde8e38d329.jpg",
+    "static/media/6.jpg": "/pankaj-khanna/static/media/6.5bc6a164c99e2836e7b8.jpg",
     "static/media/Horthing V. Zimik.jpg": "/pankaj-khanna/static/media/Horthing V. Zimik.c956cbbf05a5095ee349.jpg",
     "static/media/Daudayal Sharma.jpg": "/pankaj-khanna/static/media/Daudayal Sharma.731e08f5ee3c870d732e.jpg",
     "static/media/portfolio-link.jpg": "/pankaj-khanna/static/media/portfolio-link.99b23d92b866ff18ea1a.jpg",
     "static/media/logo.png": "/pankaj-khanna/static/media/logo.1fcab1a8a19fdf0200a7.png",
     "index.html": "/pankaj-khanna/index.html",
-    "main.0211ec29.css.map": "/pankaj-khanna/static/css/main.0211ec29.css.map",
-    "main.e01f492a.js.map": "/pankaj-khanna/static/js/main.e01f492a.js.map"
+    "main.991e4fbe.css.map": "/pankaj-khanna/static/css/main.991e4fbe.css.map",
+    "main.fdbe6f9b.js.map": "/pankaj-khanna/static/js/main.fdbe6f9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0211ec29.css",
-    "static/js/main.e01f492a.js"
+    "static/css/main.991e4fbe.css",
+    "static/js/main.fdbe6f9b.js"
   ]
 }
