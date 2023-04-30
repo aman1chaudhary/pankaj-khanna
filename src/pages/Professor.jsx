@@ -1,6 +1,6 @@
 import React from 'react'
-import { PeopleData } from "../data/PeopleData"
 import { Link } from 'react-router-dom'
+import { ProfessorData } from '../data/PeopleData'
 
 import GoogleScholarIcon from "../assets/social-icons/google-scholar.jpg"
 import LinkedinIcon from "../assets/social-icons/linkedin.jpg"
@@ -9,16 +9,15 @@ import EmailIcon from "../assets/social-icons/email.jpg"
 import ResearchGateIcon from "../assets/social-icons/research-gate.jpg"
 
 const Professor = () => {
-    const ProfessorFilteredData = PeopleData.filter((person) => person.Classification === "Professor");
     return (
 
         <dic className="page-section">
             <div className="people-card">
-                {ProfessorFilteredData.map(people => {
+                {ProfessorData.map(people => {
                     return (
-                        <div className='people-card-item'>
+                        <div className='people-card-item' data-aos="fade-up">
                             <div className="row">
-                                <div className="col-md-3">
+                                <div className="col-md-4">
                                     <div className="people-card-img">
                                         <img src={people.Image} alt='People' />
 
@@ -26,12 +25,13 @@ const Professor = () => {
 
 
                                 </div>
-                                <div className="col-md-9">
+                                <div className="col-md-8">
                                     <div className="people-card-content">
                                         <Link to={`/people/${people.Name}`} onClick={() => window.scrollTo(0, 0)}>
                                             <h2>{people.Name}</h2>
                                         </Link>
                                         <p>{people.Programme}</p>
+                                        <p>Pankaj’s work integrates both field and laboratory investigations, from modern to ancient reefs, and from qualitative to quantitative assessment of carbonate depositional systems. He has conducted fieldwork and training on three continents and in more than ten countries from India to Americas. Currently he is working on understanding Quaternary evolution of Lakshadweep and Andaman Islands and processes influencing their growth/retreat. He has also initiated a project on Fossilized geothermal systems in outcrops as analogues to subsurface geothermal reservoirs in Ladakh. He also plans to soon initiate a project on Carbon capture in Deccan Basalts.</p>
                                         <p><strong>Research Interests:</strong> {people.ResearchInterests}</p>
 
                                     </div>

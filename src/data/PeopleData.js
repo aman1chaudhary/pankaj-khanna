@@ -1,6 +1,6 @@
-export const PeopleData = [
+export const ProfessorData=[
   {
-    "Name": "Pankaj Khanna",
+    "Name": "Dr. Pankaj Khanna",
     "Programme": "Assistant Professor, Earth Sciences, IIT Gandhinagar",
     "Department": "Earth Science",
     "Classification":"Professor",
@@ -19,14 +19,19 @@ export const PeopleData = [
     "Conferences": [],
     "Publications": ["Refer Publications Page of this website."],
     "SocialLinks": {
-      "GoogleScholar": "",
-      "ResearchGate": "",
-      "Linkedin": "",
+      "GoogleScholar": "https://scholar.google.com/citations?user=v6FYRzsAAAAJ&hl=en",
+      "ResearchGate": "https://www.researchgate.net/profile/Pankaj-Khanna-10",
+      "Linkedin": "https://www.linkedin.com/in/pankaj-khanna-964648b5/",
       "Twitter": "",
       "PortfolioWebsite": ""
     }
   },
 
+];
+
+
+
+export const DoctoraMembersData = [
   {
     "Name": "Shubhangi Kala",
     "Programme": "Post Doctoral Fellow",
@@ -148,6 +153,52 @@ export const PeopleData = [
       "Linkedin": "https://www.linkedin.com/in/shradha-menon-a47991241/",
       "Twitter": "",
       "PortfolioWebsite": ""
+    }
+  },
+  {
+    "Name": "Debasmita Datta",
+    "Programme": "PhD",
+    "Department": "Earth Science",
+    "Classification":"CurrentStudent",
+    "Image": require("../assets/people/Debasmita Datta.jpg"),
+    "Email": "dattadebasmita@iitgn.ac.in",
+    "Education": [
+      "BSc in Geology hons from Durgapur Govt. College", 
+      "MSc in Applied Geology from IIT Roorkee",],
+    "ResearchInterests": "Carbon Sequestration, Sedimentology, Sequence Stratigraphy",
+    "ResearchAreas": ["Carbon Sequestration", "Sedimentology", "Sequence Stratigraphy"],
+    "Achievements": ["All India Rank 53 at JAM,2018", "GATE qualified", "Received UGC SJSGC fellowship award in 2023."],
+    "Conferences": [""],
+    "Publications": [],
+    "SocialLinks": {
+      "GoogleScholar": "",
+      "ResearchGate": "https://www.researchgate.net/profile/Debasmita_Datta3",
+      "Linkedin": "https://www.linkedin.com/in/debasmita-datta-a3778916b",
+      "Twitter": "",
+      "PortfolioWebsite": ""
+    }
+  },
+  {
+    "Name": "Saikat Kumar Misra",
+    "Programme": "PhD",
+    "Department": "Earth Science",
+    "Classification":"CurrentStudent",
+    "Image": require("../assets/people/Saikat Kumar Misra.jpg"),
+    "Email": "saikatmisra@iitgn.ac.in",
+    "Education": [
+      "BSc-Jadavpur University (Geological Sciences with Math & Physics)",
+      "MSc-Jadavpur University (Applied Geology)"],
+    "ResearchInterests": "Modern carbonate sedimentology, Late Quaternary sea-level fluctuations",
+    "ResearchAreas": ["Modern carbonate sedimentology", "Late Quaternary sea-level fluctuations"],
+    "Achievements": ["GATE qualified", "NET-LS", "Inspire Fellowship", "PMRF Fellowship"],
+    "Conferences": [""],
+    "Publications": [],
+    "SocialLinks": {
+      "GoogleScholar": "",
+      "ResearchGate": "https://www.researchgate.net/profile/Saikat-Misra",
+      "Linkedin": "www.linkedin.com/in/saikatmisra12",
+      "Twitter": "",
+      "PortfolioWebsite": "https://sites.google.com/iitgn.ac.in/saikatkumarmisra/about-me"
     }
   },
 

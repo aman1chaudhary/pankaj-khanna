@@ -34,7 +34,7 @@ a{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	background: rgba(0, 0, 0, 0.5) url(https://images.unsplash.com/photo-1534294228306-bd54eb9a7ba8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZWFydGglMjBzY2llbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+	background: rgba(0, 0, 0, 0.4) url("./assets/images//banner.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -134,7 +134,11 @@ a{
   
   
   }
-
+.image-slider{
+	margin: 50px auto;
+	display: block;
+	text-align: center;
+}
 
   .people-card-social-icons{
 	margin-top: 20px;

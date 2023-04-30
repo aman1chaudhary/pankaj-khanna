@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import ImageCarousel from '../components/ImageCarousel';
+import RecentUpdates from '../components/RecentUpdates';
 import Professor from './Professor';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <>
             <Helmet>
-                <title>Pankaj Khanna | IIT Gandhinagar</title>
+                <title>Energy & Climate Lab | IIT Gandhinagar</title>
                 <meta name="description" content="#" />
             </Helmet>
 
             <header id="head">
                 <div className="banner-content">
-                    <h1>DISCIPLINE OF<br /> EARTH SCIENCES</h1>
+                    <h1>ENERGY & CLIMATE LAB</h1>
                     <h2>IIT Gandhinagar</h2>
                 </div>
             </header>
@@ -31,7 +36,7 @@ const Home = () => {
                 <div className="section-heading">
                     <h1>Recent Updates</h1>
                 </div>
-                <ImageCarousel />
+                <RecentUpdates />
 
             </div>
 

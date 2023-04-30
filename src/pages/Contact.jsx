@@ -26,7 +26,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="contact-details">
-                            <p>Feel free to reach out to me</p>
+                            <p>If you have any questions or inquiries, please feel free to contact us.</p>
                         <p><strong>Office:</strong> 5/336 A<br/> Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, PIN - 382355.</p>
                         <p><strong>Email:</strong><a href='mailto:pankaj.khanna@iitgn.ac.in'> pankaj.khanna@iitgn.ac.in</a></p>
 

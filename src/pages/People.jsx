@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { PeopleData } from "../data/PeopleData"
+import { DoctoraMembersData } from "../data/PeopleData"
 import { Link } from 'react-router-dom'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import GoogleScholarIcon from "../assets/social-icons/google-scholar.jpg"
 import LinkedinIcon from "../assets/social-icons/linkedin.jpg"
@@ -10,7 +12,10 @@ import EmailIcon from "../assets/social-icons/email.jpg"
 import ResearchGateIcon from "../assets/social-icons/research-gate.jpg"
 
 const People = () => {
-    const CurrentStudentData = PeopleData.filter((person) => person.Classification === "CurrentStudent");
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <>
             <Helmet>
@@ -26,9 +31,9 @@ const People = () => {
                 <dic className="page-section">
 
                     <div className="people-card">
-                        {CurrentStudentData.map(people => {
+                        {DoctoraMembersData.map(people => {
                             return (
-                                <div className='people-card-item'>
+                                <div className='people-card-item' data-aos="fade-up">
                                     <div className="row">
                                         <div className="col-md-3">
                                             <div className="people-card-img">

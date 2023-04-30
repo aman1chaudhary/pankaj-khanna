@@ -47,6 +47,11 @@ const Navigation = () => {
                                 Publications
                                 </NavLink>
                             </li>
+                            <li className="nav__item">
+                                <NavLink to="/gallery" className="nav__link" onClick={handleLinkClick}>
+                                Gallery
+                                </NavLink>
+                            </li>
 
 
 

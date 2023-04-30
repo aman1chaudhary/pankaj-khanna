@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Papa from "papaparse";
 
-function ImageCarousel() {
+function RecentUpdates() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
@@ -10,24 +10,23 @@ function ImageCarousel() {
             download: true,
             dynamicTyping: true,
             complete: (results) => {
-                setData(results.data);
-            }
+              setData(results.data.reverse());
+            },
         });
     }, []);
 
-
-
+    
 
     return (
-        <div className="image-carousel-container">
+        <div>
 
             {data.length ?
                 <div className="recent-update-section">
                     <div className="row">
                         {data.map((item, index) => {
                             return (
-                                <div className='col-md-4'>
-                                    <div className="card-item">
+                                <div className='col-md-4' key={index}>
+                                    <div className="card-item" data-aos="fade-up">
                                         <div className="card-item-img">
                                         <a href={item.ArticleLink} target="_blank" rel="noreferrer"> <img src={item.ImageLink} alt='item' /></a>
                                         </div>
@@ -55,4 +54,4 @@ function ImageCarousel() {
     );
 }
 
-export default ImageCarousel;
+export default RecentUpdates;

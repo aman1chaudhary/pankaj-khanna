@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { PublicationsData } from '../data/PublicationsData';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Publications = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     const [yearFilter, setYearFilter] = useState('All');
     const [authorFilter, setAuthorFilter] = useState('All');
     const [typeFilter, setTypeFilter] = useState('All');
@@ -70,7 +76,7 @@ const Publications = () => {
                         {filteredArticles.length > 0 ? (
                             <ol className='list-items'>
                                 {filteredArticles.map(article => (
-                                    <li className='publication-list' key={article.PublicationTitle}>
+                                    <li className='publication-list' key={article.PublicationTitle} data-aos="fade-up">
                                         {article.PublicationLink ?
                                             <a href={article.PublicationLink} target='_blank' rel='noreferrer'>{article.PublicationTitle}</a>
                                             :

@@ -19,7 +19,7 @@ const Footer = () => {
                     <img src={logo} className="img-fluid" alt="logo" />
                   </div>
                   <div className="footer-text">
-                    <p>Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, PIN - 382355. </p>
+                    <p>Energy & Climate Lab <br/>Indian Institute of Technology Gandhinagar, Palaj, Gandhinagar, Gujarat, PIN - 382355. </p>
                   </div>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2023, All Right Reserved <Link to="/" onClick={() => window.scrollTo(0, 0)}>Pankaj Khanna</Link></p>
+                  <p>Copyright &copy; 2023, All Right Reserved <Link to="/" onClick={() => window.scrollTo(0, 0)}>Energy & Climate Lab</Link></p>
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">

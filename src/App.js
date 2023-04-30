@@ -8,6 +8,7 @@ import Publications from './pages/Publications';
 import Navigation from './components/Navigation';
 import PeopleDetails from './pages/PeopleDetails';
 import Privacy from './pages/Privacy';
+import Gallery from './pages/Gallery';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/people" element={<People />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/publications" element={<Publications />}/>
+        <Route path="/gallery" element={<Gallery />}/>
         <Route path="/privacy-policy" element={<Privacy />}/>
         <Route path="/people/:Name" element={<PeopleDetails />} />
         

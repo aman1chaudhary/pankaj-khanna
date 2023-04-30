@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { PeopleData } from '../data/PeopleData';
+import { DoctoraMembersData } from '../data/PeopleData';
 import EmptyList from '../components/EmptyList';
 import { Helmet } from 'react-helmet';
 import GoogleScholarIcon from "../assets/social-icons/google-scholar.jpg"
@@ -28,7 +28,7 @@ const PeopleDetails = () => {
     const { Name } = useParams();
     const [people, setPeople] = useState(null);
     useEffect(() => {
-        let people = PeopleData.find((people) => people.Name === (Name));
+        let people = DoctoraMembersData.find((people) => people.Name === (Name));
         if (people) {
             setPeople(people);
         }
