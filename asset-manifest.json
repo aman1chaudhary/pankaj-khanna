@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pankaj-khanna/static/css/main.991e4fbe.css",
-    "main.js": "/pankaj-khanna/static/js/main.fdbe6f9b.js",
+    "main.js": "/pankaj-khanna/static/js/main.0645753c.js",
     "static/media/empty.gif": "/pankaj-khanna/static/media/empty.892e3c962daac6591a52.gif",
     "static/media/Pankaj Khanna.jpg": "/pankaj-khanna/static/media/Pankaj Khanna.8a0879eaa1c9b5603eb4.jpg",
     "static/media/banner.jpg": "/pankaj-khanna/static/media/banner.2e8b50cf3b24572a711a.jpg",
@@ -26,10 +26,10 @@
     "static/media/logo.png": "/pankaj-khanna/static/media/logo.1fcab1a8a19fdf0200a7.png",
     "index.html": "/pankaj-khanna/index.html",
     "main.991e4fbe.css.map": "/pankaj-khanna/static/css/main.991e4fbe.css.map",
-    "main.fdbe6f9b.js.map": "/pankaj-khanna/static/js/main.fdbe6f9b.js.map"
+    "main.0645753c.js.map": "/pankaj-khanna/static/js/main.0645753c.js.map"
   },
   "entrypoints": [
     "static/css/main.991e4fbe.css",
-    "static/js/main.fdbe6f9b.js"
+    "static/js/main.0645753c.js"
   ]
 }
